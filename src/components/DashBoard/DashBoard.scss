@@ -1,0 +1,82 @@
+.site-main {
+  width: 100%;
+  padding: 0 35px 0 32px;
+}
+
+.cards {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    background-image: url(../../assets/images/GrowthGreen.svg);
+    background-repeat: no-repeat;
+    background-position: 135px 60px;
+    &:nth-child(2) {
+      background-image: url(../../assets/images/GrowthRed.svg);
+    }
+  }
+  &__box-center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  &__box-center2 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.256px;
+    color: #333;
+  }
+  &__icon {
+    font-size: 12px;
+    color: #292d32;
+    &:nth-child(1) {
+      color: #00dea3;
+    }
+  }
+  &__icon- {
+    font-size: 12px;
+    color: #f23985;
+  }
+  &__price {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.384px;
+    color: #00261c;
+  }
+  &__box-end {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  &__percent {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color: #00dea3;
+  }
+  &__percent- {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color: #f23985;
+  }
+}
+
+.swiper-pagination {
+  display: none;
+}

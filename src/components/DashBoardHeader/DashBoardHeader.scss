@@ -1,0 +1,104 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 35px 25px 32px;
+  }
+  &__box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+  &__hello {
+    font-size: 24px;
+    color: #00261c;
+    font-weight: 700;
+    letter-spacing: 0.384px;
+  }
+  &__date {
+    color: #707eae;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+  }
+  &__box2 {
+    position: relative;
+  }
+  &__src-btn {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 24px;
+    color: #aeb6cf;
+    background-color: initial;
+    border: none;
+    cursor: pointer;
+  }
+  &__input {
+    width: 406px;
+    height: 48px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #00261c;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px 8px 45px;
+    &::placeholder {
+      color: #aeb6cf;
+    }
+  }
+  &__box3 {
+    display: flex;
+    align-items: center;
+  }
+  &__notification-btn {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 153, 112, 0.08);
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 4px 16px 8px rgba(0, 153, 112, 0.08);
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
+  &__name {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.256px;
+    color: #00261c;
+    margin: 0 8px 0 25px;
+  }
+  &__user-btn {
+    background-color: initial;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 4px 16px 0px rgba(0, 153, 112, 0.08);
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
+  &__user-img {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+}
